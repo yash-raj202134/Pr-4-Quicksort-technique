@@ -90,10 +90,10 @@ void qs::quickSortIterative(int *A, int n) // Quick sort function for iterative 
 int main(void)
 {
     qs q;
-    q.getArray(q.Arr, 5);
+    q.getArray(q.Arr, 8);
     cout << "Before sorting : ";
     q.printArray(q.Arr);
-    q.quickSortRecursive(q.Arr, 0, 4);
+    q.quickSortRecursive(q.Arr, 0, 7);
     cout << "After sorting : ";
     q.printArray(q.Arr);
 
